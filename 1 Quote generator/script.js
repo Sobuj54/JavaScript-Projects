@@ -7,21 +7,19 @@ const loader = document.getElementById("loader");
 
 let quotes = [];
 
-// show loading
-function loading() {
+function showLoadingSpinner() {
   loader.hidden = false;
   quoteContainer.hidden = true;
 }
 
-// hide loading
-function complete() {
+function removeLoadingSpinner() {
   quoteContainer.hidden = false;
   loader.hidden = true;
 }
 
 // show new quote
 function newQuote() {
-  loading();
+  showLoadingSpinner();
   const index = Math.floor(Math.random() * quotes.length);
   const quote = quotes[index];
   authorText.textContent = quote.author || "Unknown";
@@ -33,7 +31,7 @@ function newQuote() {
   }
   //   set quote , hide loader
   quoteText.textContent = quote.text;
-  complete();
+  removeLoadingSpinner();
 }
 
 async function getQuotes() {
