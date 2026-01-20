@@ -1,4 +1,4 @@
-# 🚀 20 JavaScript Web Projects: Portfolio
+# 20 JavaScript Web Projects: Portfolio
 
 This repository tracks my journey through the **"20 JavaScript Web Projects"** course. Each project is built with Vanilla JS, focusing on high-performance DOM manipulation and modern API integration.
 
@@ -15,7 +15,8 @@ _Use this table for quick navigation to the live demos and code._
 | 03  | **Picture-in-Picture** |   ✅   | [Live ](https://picture-in-picture-web.netlify.app/) |
 | 04  | **Joke Teller**        |   ✅   |    [Live ](https://joke-teller-web.netlify.app/)     |
 | 05  | **Light/Dark Mode**    |   ✅   |  [Live ](https://light-dark-mode-web.netlify.app/)   |
-| 06  | **Animated Template**  |   ⏳   |                      _Pending_                       |
+| 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    |
+| 07  | **Navigation Nation**  |   ⏳   |                      _Pending_                       |
 
 ---
 
@@ -84,7 +85,20 @@ A highly practical project focusing on UI customization and data persistence. Th
 
 ---
 
-### 06. Animated Template (Coming Soon)
+### 06. Animated Template
+
+A high-quality, responsive landing page featuring modern entrance animations that trigger as the user scrolls down the page. This project focuses on the intersection of JavaScript logic and CSS design.
+![Animated Template Screenshot](./screenshots/animated-template.png)
+
+**Key Learnings:**
+
+- **On-Scroll Animations:** Implementing logic to trigger CSS animations exactly when elements enter the viewport.
+- **AOS (Animate On Scroll) Library:** Integrating and customizing a professional animation library to manage complex transition timings.
+- **UX Design Principles:** Balancing movement and speed to ensure animations enhance the site experience without distracting the user.
+
+---
+
+### 07. Navigation Nation (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -93,8 +107,8 @@ _Placeholder for the upcoming project logic and screenshot._
 ## Tech & Tools
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **APIs Used:** Unsplash, Quote API, Screen Capture, VoiceRSS, Joke API
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables
+- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
