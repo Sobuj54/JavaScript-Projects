@@ -1,4 +1,4 @@
-# 20 JavaScript Web Projects: Portfolio
+# 🚀 20 JavaScript Web Projects: Portfolio
 
 This repository tracks my journey through the **"20 JavaScript Web Projects"** course. Each project is built with Vanilla JS, focusing on high-performance DOM manipulation and modern API integration.
 
@@ -30,6 +30,7 @@ Built a dynamic quote engine that fetches data from a REST API and features cust
 **Key Learnings:**
 
 - Implementing a "Loading Spinner" to improve UX during API calls.
+- Using the Twitter Intent API to share text dynamically.
 - Logic to handle "Long Quotes" by shrinking the font size automatically.
 
 ---
@@ -41,7 +42,8 @@ Created a seamless image browsing experience similar to Pinterest, powered by th
 **Key Learnings:**
 
 - Efficiently managing network requests using `async/await`.
-- Calculating scroll position logic to trigger new content before the user reaches the bottom.
+- Calculating scroll position logic: `window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000`.
+- Creating a custom "Loader" that disappears only after the images have fully rendered.
 
 ---
 
@@ -51,32 +53,34 @@ Developed a utility that allows users to select a video stream and display it in
 ![Picture-in-Picture Screenshot](./screenshots/picture-in-picture.png)
 **Key Learnings:**
 
-- **Screen Capture API:** Using `navigator.mediaDevices.getDisplayMedia()`.
-- **Picture-in-Picture API:** Leveraging browser-native window detachment.
+- **Screen Capture API:** Using `navigator.mediaDevices.getDisplayMedia()` to capture screen video.
+- **Picture-in-Picture API:** Triggering `requestPictureInPicture()` to detach the video window from the browser.
 
 ---
 
 ### 04. Joke Teller
 
-An interactive app that fetches jokes and uses a Text-to-Speech API to read them aloud.
+An interactive app that fetches jokes and uses a Text-to-Speech API to read them aloud, featuring a custom-designed robot character.
 ![Joke Teller Screenshot](./screenshots/joke-teller.png)
 **Key Learnings:**
 
-- **VoiceRSS API:** Converting string data into spoken audio.
-- **UI State Management:** Disabling buttons during audio playback to prevent logic conflicts.
+- **VoiceRSS API:** Integrating a Text-to-Speech SDK to convert string data into spoken audio.
+- **API Coordination:** Fetching data from the Joke API and passing the resulting string into the Voice function.
+- **UI State Management:** Disabling the "Tell Me A Joke" button while the audio is playing to prevent overlapping speech and API spam.
 
 ---
 
 ### 05. Light/Dark Mode
 
-A modern theme-switching application that remembers user preferences across sessions using local browser storage.
+A highly practical project focusing on UI customization and data persistence. This app allows users to toggle between light and dark themes with the setting being remembered even after a page refresh.
 ![Light/Dark Mode Screenshot](./screenshots/dark-light-mode.png)
 
 **Key Learnings:**
 
-- **LocalStorage API:** Saving and retrieving the user's theme preference so it persists after a page refresh.
-- **Dynamic Attribute Manipulation:** Using `document.documentElement.setAttribute('data-theme', 'dark')` to trigger global CSS variable changes.
-- **Event Listeners:** Syncing a checkbox toggle with the overall UI state (icons, text, and images).
+- **LocalStorage API:** Using `localStorage.setItem()` and `getItem()` to save the user's preference in the browser's local memory.
+- **Data Attributes:** Dynamically updating the `data-theme` attribute on the `document.documentElement` to trigger CSS variable shifts.
+- **CSS Variables:** Mastering `:root` variables to create a clean, maintainable theme-switching system.
+- **Conditional Logic:** Writing a "Switch Theme" function that updates icons, text, and image assets simultaneously based on the toggle state.
 
 ---
 
@@ -89,7 +93,8 @@ _Placeholder for the upcoming project logic and screenshot._
 ## Tech & Tools
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **Concepts:** DOM Manipulation, LocalStorage, Async/Await, Web APIs
+- **APIs Used:** Unsplash, Quote API, Screen Capture, VoiceRSS, Joke API
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
