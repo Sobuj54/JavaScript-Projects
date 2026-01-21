@@ -1,4 +1,4 @@
-# 20 JavaScript Web Projects: Portfolio
+# 🚀 20 JavaScript Web Projects: Portfolio
 
 This repository tracks my journey through the **"20 JavaScript Web Projects"** course. Each project is built with Vanilla JS, focusing on high-performance DOM manipulation and modern API integration.
 
@@ -6,19 +6,19 @@ This repository tracks my journey through the **"20 JavaScript Web Projects"** c
 
 ## Project Quick Links
 
-_Use this table for quick navigation to the live demos and code._
+_Use this table for quick navigation to the live demos, code, and detailed gallery sections._
 
-| #   | Project Name           | Status |                      Live Demo                       |
-| :-- | :--------------------- | :----: | :--------------------------------------------------: |
-| 01  | **Quote Generator**    |   ✅   |   [Live ](https://quote-generato-web.netlify.app/)   |
-| 02  | **Infinite Scroll**    |   ✅   |    [Live ](https://infinite-scrool.netlify.app/)     |
-| 03  | **Picture-in-Picture** |   ✅   | [Live ](https://picture-in-picture-web.netlify.app/) |
-| 04  | **Joke Teller**        |   ✅   |    [Live ](https://joke-teller-web.netlify.app/)     |
-| 05  | **Light/Dark Mode**    |   ✅   |  [Live ](https://light-dark-mode-web.netlify.app/)   |
-| 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    |
-| 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  |
-| 08  | **Music Player**       |   ✅   |  [Live ](https://web-music-player-app.netlify.app/)  |
-| 09  | **Custom Countdown**   |   ⏳   |                      _Pending_                       |
+| #   | Project Name           | Status |                      Live Demo                       |               Details                |
+| :-- | :--------------------- | :----: | :--------------------------------------------------: | :----------------------------------: |
+| 01  | **Quote Generator**    |   ✅   |   [Live ](https://quote-generato-web.netlify.app/)   |  [Read more ](#01-quote-generator)   |
+| 02  | **Infinite Scroll**    |   ✅   |    [Live ](https://infinite-scrool.netlify.app/)     |  [Read more ](#02-infinite-scroll)   |
+| 03  | **Picture-in-Picture** |   ✅   | [Live ](https://picture-in-picture-web.netlify.app/) | [Read more ](#03-picture-in-picture) |
+| 04  | **Joke Teller**        |   ✅   |    [Live ](https://joke-teller-web.netlify.app/)     |    [Read more ](#04-joke-teller)     |
+| 05  | **Light/Dark Mode**    |   ✅   |  [Live ](https://light-dark-mode-web.netlify.app/)   |   [Read more ](#05-lightdark-mode)   |
+| 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    | [Read more ](#06-animated-template)  |
+| 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  | [Read more ](#07-navigation-nation)  |
+| 08  | **Music Player**       |   ✅   |  [Live ](https://web-music-player-app.netlify.app/)  |    [Read more ](#08-music-player)    |
+| 09  | **Custom Countdown**   |   ⏳   |                      _Pending_                       |                  -                   |
 
 ---
 
@@ -103,7 +103,6 @@ A high-quality, responsive landing page featuring modern entrance animations tha
 ### 07. Navigation Nation
 
 A sleek, full-screen overlay navigation menu with staggered entrance animations. This project demonstrates how to coordinate complex CSS transitions using JavaScript class manipulation.
-
 ![Navigation Nation Screenshot](./screenshots/navigation-nation.png)
 
 **Key Learnings:**
@@ -118,7 +117,6 @@ A sleek, full-screen overlay navigation menu with staggered entrance animations.
 ### 08. Music Player
 
 A fully functional custom audio player featuring play/pause, next/previous track functionality, and an interactive progress bar. This project focuses on the HTML5 Audio API and real-time DOM updates.
-
 ![Music Player Screenshot](./screenshots/music-player.png)
 
 **Key Learnings:**
