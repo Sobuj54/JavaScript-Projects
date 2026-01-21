@@ -17,7 +17,8 @@ _Use this table for quick navigation to the live demos and code._
 | 05  | **Light/Dark Mode**    |   ✅   |  [Live ](https://light-dark-mode-web.netlify.app/)   |
 | 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    |
 | 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  |
-| 08  | **Music Player**       |   ⏳   |                      _Pending_                       |
+| 08  | **Music Player**       |   ✅   |  [Live ](https://web-music-player-app.netlify.app/)  |
+| 09  | **Custom Countdown**   |   ⏳   |                      _Pending_                       |
 
 ---
 
@@ -114,7 +115,23 @@ A sleek, full-screen overlay navigation menu with staggered entrance animations.
 
 ---
 
-### 08. Music Player (Coming Soon)
+### 08. Music Player
+
+A fully functional custom audio player featuring play/pause, next/previous track functionality, and an interactive progress bar. This project focuses on the HTML5 Audio API and real-time DOM updates.
+
+![Music Player Screenshot](./screenshots/music-player.png)
+
+**Key Learnings:**
+
+- **HTML5 Audio API:** Mastering properties like `audio.play()`, `audio.pause()`, and tracking `currentTime` and `duration`.
+- **Progress Bar Math:** Calculating the percentage of the song played to update the width of the progress bar: `(currentTime / duration) * 100`.
+- **Interactive Seeking:** Implementing logic to allow users to click anywhere on the progress bar to jump to a specific part of the song using `e.offsetX`.
+- **Dynamic Content:** Loading song metadata (titles, artists, and covers) from an array of objects to keep the code modular and easy to scale.
+- **Event Listeners:** Utilizing the `timeupdate` event for smooth UI updates and the `ended` event to automatically trigger the next track.
+
+---
+
+### 09. Custom Countdown (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -123,8 +140,8 @@ _Placeholder for the upcoming project logic and screenshot._
 ## Tech & Tools
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations
+- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio Manipulation
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
