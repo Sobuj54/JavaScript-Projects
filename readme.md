@@ -16,7 +16,8 @@ _Use this table for quick navigation to the live demos and code._
 | 04  | **Joke Teller**        |   ✅   |    [Live ](https://joke-teller-web.netlify.app/)     |
 | 05  | **Light/Dark Mode**    |   ✅   |  [Live ](https://light-dark-mode-web.netlify.app/)   |
 | 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    |
-| 07  | **Navigation Nation**  |   ⏳   |                      _Pending_                       |
+| 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  |
+| 08  | **Music Player**       |   ⏳   |                      _Pending_                       |
 
 ---
 
@@ -98,7 +99,22 @@ A high-quality, responsive landing page featuring modern entrance animations tha
 
 ---
 
-### 07. Navigation Nation (Coming Soon)
+### 07. Navigation Nation
+
+A sleek, full-screen overlay navigation menu with staggered entrance animations. This project demonstrates how to coordinate complex CSS transitions using JavaScript class manipulation.
+
+![Navigation Nation Screenshot](./screenshots/navigation-nation.png)
+
+**Key Learnings:**
+
+- **CSS Staggered Animations:** Applying incremental delays to list items so they appear one by one for a polished UI feel.
+- **Class Manipulation:** Efficiently using `classList.replace()`, `add()`, and `remove()` to toggle navigation states between "slide-in" and "slide-out."
+- **Overlay Logic:** Creating a responsive, mobile-friendly navigation overlay that doesn't interfere with the main page content when closed.
+- **Dry Code (DRY):** Writing a reusable `toggleNav()` function to handle all animation logic in one place.
+
+---
+
+### 08. Music Player (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -108,7 +124,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
