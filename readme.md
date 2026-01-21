@@ -1,4 +1,4 @@
-# 🚀 20 JavaScript Web Projects: Portfolio
+# 20 JavaScript Web Projects: Portfolio
 
 This repository tracks my journey through the **"20 JavaScript Web Projects"** course. Each project is built with Vanilla JS, focusing on high-performance DOM manipulation and modern API integration.
 
@@ -18,7 +18,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    | [Read more ](#06-animated-template)  |
 | 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  | [Read more ](#07-navigation-nation)  |
 | 08  | **Music Player**       |   ✅   |  [Live ](https://web-music-player-app.netlify.app/)  |    [Read more ](#08-music-player)    |
-| 09  | **Custom Countdown**   |   ⏳   |                      _Pending_                       |                  -                   |
+| 09  | **Custom Countdown**   |   ✅   | [Live ](https://custom-count-down-web.netlify.app/)  |  [Read more ](#09-custom-countdown)  |
+| 10  | **Book Keeper**        |   ⏳   |                      _Pending_                       |                  -                   |
 
 ---
 
@@ -129,7 +130,22 @@ A fully functional custom audio player featuring play/pause, next/previous track
 
 ---
 
-### 09. Custom Countdown (Coming Soon)
+### 09. Custom Countdown
+
+A specialized tool that allows users to set a target date and track the remaining time down to the second. This project emphasizes date manipulation and state persistence.
+![Custom Countdown Screenshot](./screenshots/custom-countdown.png)
+
+**Key Learnings:**
+
+- **Date Object & Math:** Converting raw milliseconds into readable days, hours, minutes, and seconds using math constants.
+- **Time Management:** Using `setInterval()` to update the UI every second and `clearInterval()` to stop the process when the countdown finishes or is reset.
+- **Input Validation:** Setting a `min` attribute on the HTML5 Date input dynamically to prevent users from selecting past dates.
+- **Persistent States:** Storing the countdown title and date in `localStorage` so the countdown continues even after a page refresh.
+- **UI Switching:** Managing three distinct UI states (Input form, Active countdown, and Finished message) by toggling the `hidden` attribute.
+
+---
+
+### 10. Book Keeper (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -139,7 +155,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio Manipulation
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio Manipulation, Date & Time Math
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
