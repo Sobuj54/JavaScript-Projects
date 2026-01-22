@@ -4,7 +4,7 @@ This repository tracks my journey through the **"20 JavaScript Web Projects"** c
 
 ---
 
-## Project Quick Links
+## Project Links
 
 _Use this table for quick navigation to the live demos, code, and detailed gallery sections._
 
@@ -19,7 +19,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  | [Read more ](#07-navigation-nation)  |
 | 08  | **Music Player**       |   ✅   |  [Live ](https://web-music-player-app.netlify.app/)  |    [Read more ](#08-music-player)    |
 | 09  | **Custom Countdown**   |   ✅   | [Live ](https://custom-count-down-web.netlify.app/)  |  [Read more ](#09-custom-countdown)  |
-| 10  | **Book Keeper**        |   ⏳   |                      _Pending_                       |                  -                   |
+| 10  | **Book Keeper**        |   ✅   |    [Live ](https://book-keeper-web.netlify.app/)     |    [Read more ](#10-book-keeper)     |
+| 11  | **Video Player**       |   ⏳   |                      _Pending_                       |                  -                   |
 
 ---
 
@@ -145,7 +146,22 @@ A specialized tool that allows users to set a target date and track the remainin
 
 ---
 
-### 10. Book Keeper (Coming Soon)
+### 10. Book Keeper
+
+A bookmark management application that allows users to save, display, and delete website shortcuts. This project focuses on data structure management and form processing.
+![Book Keeper Screenshot](./screenshots/book%20keeper.png)
+
+**Key Learnings:**
+
+- **Modal Logic:** Creating a functional popup overlay for data entry using DOM manipulation and CSS visibility toggles.
+- **RegEx Validation:** Implementing Regular Expressions to ensure users enter valid URLs before the form can be submitted.
+- **LocalStorage Arrays:** Saving bookmarks as an array of objects and using `JSON.stringify()` and `JSON.parse()` for data persistence.
+- **Event Delegation:** Efficiently handling delete clicks on dynamically generated elements by attaching listeners to a parent container.
+- **Template Literals:** Using JavaScript to generate and inject complex HTML structures into the DOM based on user-stored data.
+
+---
+
+### 11. Video Player (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -155,7 +171,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio Manipulation, Date & Time Math
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio Manipulation, Date & Time Math, RegEx Validation, Modal UI
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
