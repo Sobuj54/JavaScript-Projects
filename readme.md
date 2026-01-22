@@ -8,19 +8,20 @@ This repository tracks my journey through the **"20 JavaScript Web Projects"** c
 
 _Use this table for quick navigation to the live demos, code, and detailed gallery sections._
 
-| #   | Project Name           | Status |                      Live Demo                       |               Details                |
-| :-- | :--------------------- | :----: | :--------------------------------------------------: | :----------------------------------: |
-| 01  | **Quote Generator**    |   ✅   |   [Live ](https://quote-generato-web.netlify.app/)   |  [Read more ](#01-quote-generator)   |
-| 02  | **Infinite Scroll**    |   ✅   |    [Live ](https://infinite-scrool.netlify.app/)     |  [Read more ](#02-infinite-scroll)   |
-| 03  | **Picture-in-Picture** |   ✅   | [Live ](https://picture-in-picture-web.netlify.app/) | [Read more ](#03-picture-in-picture) |
-| 04  | **Joke Teller**        |   ✅   |    [Live ](https://joke-teller-web.netlify.app/)     |    [Read more ](#04-joke-teller)     |
-| 05  | **Light/Dark Mode**    |   ✅   |  [Live ](https://light-dark-mode-web.netlify.app/)   |   [Read more ](#05-lightdark-mode)   |
-| 06  | **Animated Template**  |   ✅   |   [Live ](https://template-animated.netlify.app/)    | [Read more ](#06-animated-template)  |
-| 07  | **Navigation Nation**  |   ✅   | [Live ](https://navigation-nation-web.netlify.app/)  | [Read more ](#07-navigation-nation)  |
-| 08  | **Music Player**       |   ✅   |  [Live ](https://web-music-player-app.netlify.app/)  |    [Read more ](#08-music-player)    |
-| 09  | **Custom Countdown**   |   ✅   | [Live ](https://custom-count-down-web.netlify.app/)  |  [Read more ](#09-custom-countdown)  |
-| 10  | **Book Keeper**        |   ✅   |    [Live ](https://book-keeper-web.netlify.app/)     |    [Read more ](#10-book-keeper)     |
-| 11  | **Video Player**       |   ⏳   |                      _Pending_                       |                  -                   |
+| #   | Project Name           | Status |                        Live Demo                         |               Details                |
+| :-- | :--------------------- | :----: | :------------------------------------------------------: | :----------------------------------: |
+| 01  | **Quote Generator**    |   ✅   |     [Live ](https://quote-generato-web.netlify.app/)     |  [Read more ](#01-quote-generator)   |
+| 02  | **Infinite Scroll**    |   ✅   |      [Live ](https://infinite-scrool.netlify.app/)       |  [Read more ](#02-infinite-scroll)   |
+| 03  | **Picture-in-Picture** |   ✅   |   [Live ](https://picture-in-picture-web.netlify.app/)   | [Read more ](#03-picture-in-picture) |
+| 04  | **Joke Teller**        |   ✅   |      [Live ](https://joke-teller-web.netlify.app/)       |    [Read more ](#04-joke-teller)     |
+| 05  | **Light/Dark Mode**    |   ✅   |    [Live ](https://light-dark-mode-web.netlify.app/)     |   [Read more ](#05-lightdark-mode)   |
+| 06  | **Animated Template**  |   ✅   |     [Live ](https://template-animated.netlify.app/)      | [Read more ](#06-animated-template)  |
+| 07  | **Navigation Nation**  |   ✅   |   [Live ](https://navigation-nation-web.netlify.app/)    | [Read more ](#07-navigation-nation)  |
+| 08  | **Music Player**       |   ✅   |    [Live ](https://web-music-player-app.netlify.app/)    |    [Read more ](#08-music-player)    |
+| 09  | **Custom Countdown**   |   ✅   |   [Live ](https://custom-count-down-web.netlify.app/)    |  [Read more ](#09-custom-countdown)  |
+| 10  | **Book Keeper**        |   ✅   |      [Live ](https://book-keeper-web.netlify.app/)       |    [Read more ](#10-book-keeper)     |
+| 11  | **Video Player**       |   ✅   | [Live ](https://custom-video-player-webapp.netlify.app/) |    [Read more ](#11-video-player)    |
+| 12  | **Form Validator**     |   ⏳   |                      _In-progress_                       |                  -                   |
 
 ---
 
@@ -161,7 +162,22 @@ A bookmark management application that allows users to save, display, and delete
 
 ---
 
-### 11. Video Player (Coming Soon)
+### 11. Video Player
+
+Developed a custom HTML5 Video Player with a bespoke interface, featuring playback speed control, progress bar seeking, and volume management.
+![Video Player Screenshot](./screenshots/video-player.png)
+
+**Key Learnings:**
+
+- **HTML5 Video API:** Utilizing methods like `video.play()`, `video.pause()`, and properties like `video.paused` and `video.currentTime`.
+- **Custom UI Controls:** Building a unique control bar with JavaScript to handle volume, playback speed, and time display.
+- **Progress Bar Interactivity:** Calculating the click position on the progress bar to update the video's `currentTime` proportionally.
+- **Playback Rate:** Dynamically adjusting the `playbackRate` property (e.g., 0.5x, 1x, 2x) via a dropdown menu.
+- **Fullscreen API:** Implementing cross-browser logic to toggle full-screen mode for a better viewing experience.
+
+---
+
+### 12. Form Validator (In progress)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -170,8 +186,8 @@ _Placeholder for the upcoming project logic and screenshot._
 ## Tech & Tools
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio Manipulation, Date & Time Math, RegEx Validation, Modal UI
+- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
