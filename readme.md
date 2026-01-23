@@ -22,7 +22,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 10  | **Book Keeper**        |   ✅   |      [Live ](https://book-keeper-web.netlify.app/)       |    [Read more ](#10-book-keeper)     |
 | 11  | **Video Player**       |   ✅   | [Live ](https://custom-video-player-webapp.netlify.app/) |    [Read more ](#11-video-player)    |
 | 12  | **Form Validator**     |   ✅   |     [Live ](https://form-validator-web.netlify.app/)     |   [Read more ](#12-form-validator)   |
-| 13  | **Spock Rock Game**    |   ⏳   |                        _Pending_                         |                  -                   |
+| 13  | **Spock Rock Game**    |   ✅   |       [Live ](https://spock-rock-web.netlify.app/)       |  [Read more ](#13-spock-rock-game)   |
+| 14  | **NASA APOD**          |   ⏳   |                        _Pending_                         |                  -                   |
 
 ---
 
@@ -193,7 +194,21 @@ A robust registration form that provides real-time validation and styling to gui
 
 ---
 
-### 13. Spock Rock Game (Coming Soon)
+### 13. Spock Rock Game
+
+An expanded version of Rock Paper Scissors that includes Lizard and Spock. This project focuses on handling complex conditional logic and integrating external animations.
+![Spock Rock Game Screenshot](./screenshots/spock-rock.png)
+
+**Key Learnings:**
+
+- **Game Logic Architecture:** Using an object-based lookup system or complex nested conditionals to determine winners among 5 different choices.
+- **External Modules:** Implementing the `confetti-js` library to provide visual rewards when the player wins.
+- **Dynamic Styling:** Toggling CSS classes to highlight selections for both the player and the computer while resetting previous states.
+- **Randomization:** Generating computer choices using `Math.random()` and mapping results to specific game elements.
+
+---
+
+### 14. NASA APOD (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -202,8 +217,8 @@ _Placeholder for the upcoming project logic and screenshot._
 ## Tech & Tools
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation
+- **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API, Confetti.js
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
