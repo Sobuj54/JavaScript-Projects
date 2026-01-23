@@ -21,7 +21,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 09  | **Custom Countdown**   |   ✅   |   [Live ](https://custom-count-down-web.netlify.app/)    |  [Read more ](#09-custom-countdown)  |
 | 10  | **Book Keeper**        |   ✅   |      [Live ](https://book-keeper-web.netlify.app/)       |    [Read more ](#10-book-keeper)     |
 | 11  | **Video Player**       |   ✅   | [Live ](https://custom-video-player-webapp.netlify.app/) |    [Read more ](#11-video-player)    |
-| 12  | **Form Validator**     |   ⏳   |                      _In-progress_                       |                  -                   |
+| 12  | **Form Validator**     |   ✅   |     [Live ](https://form-validator-web.netlify.app/)     |   [Read more ](#12-form-validator)   |
+| 13  | **Spock Rock Game**    |   ⏳   |                        _Pending_                         |                  -                   |
 
 ---
 
@@ -177,7 +178,22 @@ Developed a custom HTML5 Video Player with a bespoke interface, featuring playba
 
 ---
 
-### 12. Form Validator (In progress)
+### 12. Form Validator
+
+A robust registration form that provides real-time validation and styling to guide users toward correct data entry. This project focuses on input security and user experience.
+![Form Validator Screenshot](./screenshots/form-validator.png)
+
+**Key Learnings:**
+
+- **Input Logic:** Creating a reusable `showError` and `showSuccess` function to manipulate CSS classes and error messages dynamically.
+- **Length Validation:** Implementing checks to ensure usernames and passwords meet specific character length requirements.
+- **Password Matching:** Writing logic to compare the "Password" and "Confirm Password" fields to ensure they are identical.
+- **Email RegEx:** Using standard Regular Expressions to validate email formats on the client side.
+- **Event Coordination:** Utilizing the `submit` event to prevent default behavior until all fields pass the validation suite.
+
+---
+
+### 13. Spock Rock Game (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -187,7 +203,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
