@@ -8,23 +8,24 @@ This repository tracks my journey through the **"20 JavaScript Web Projects"** c
 
 _Use this table for quick navigation to the live demos, code, and detailed gallery sections._
 
-| #   | Project Name            | Status |                        Live Demo                         |               Details                |
-| :-- | :---------------------- | :----: | :------------------------------------------------------: | :----------------------------------: |
-| 01  | **Quote Generator**     |   ✅   |     [Live ](https://quote-generato-web.netlify.app/)     |  [Read more ](#01-quote-generator)   |
-| 02  | **Infinite Scroll**     |   ✅   |      [Live ](https://infinite-scrool.netlify.app/)       |  [Read more ](#02-infinite-scroll)   |
-| 03  | **Picture-in-Picture**  |   ✅   |   [Live ](https://picture-in-picture-web.netlify.app/)   | [Read more ](#03-picture-in-picture) |
-| 04  | **Joke Teller**         |   ✅   |      [Live ](https://joke-teller-web.netlify.app/)       |    [Read more ](#04-joke-teller)     |
-| 05  | **Light/Dark Mode**     |   ✅   |    [Live ](https://light-dark-mode-web.netlify.app/)     |   [Read more ](#05-lightdark-mode)   |
-| 06  | **Animated Template**   |   ✅   |     [Live ](https://template-animated.netlify.app/)      | [Read more ](#06-animated-template)  |
-| 07  | **Navigation Nation**   |   ✅   |   [Live ](https://navigation-nation-web.netlify.app/)    | [Read more ](#07-navigation-nation)  |
-| 08  | **Music Player**        |   ✅   |    [Live ](https://web-music-player-app.netlify.app/)    |    [Read more ](#08-music-player)    |
-| 09  | **Custom Countdown**    |   ✅   |   [Live ](https://custom-count-down-web.netlify.app/)    |  [Read more ](#09-custom-countdown)  |
-| 10  | **Book Keeper**         |   ✅   |      [Live ](https://book-keeper-web.netlify.app/)       |    [Read more ](#10-book-keeper)     |
-| 11  | **Video Player**        |   ✅   | [Live ](https://custom-video-player-webapp.netlify.app/) |    [Read more ](#11-video-player)    |
-| 12  | **Form Validator**      |   ✅   |     [Live ](https://form-validator-web.netlify.app/)     |   [Read more ](#12-form-validator)   |
-| 13  | **Spock Rock Game**     |   ✅   |       [Live ](https://spock-rock-web.netlify.app/)       |  [Read more ](#13-spock-rock-game)   |
-| 14  | **NASA APOD**           |   ✅   |     [Live ](https://nasa-apod-web-app.netlify.app/)      |     [Read more ](#14-nasa-apod)      |
-| 15  | **Math Sprinting Game** |   ⏳   |                        _Pending_                         |                  -                   |
+| #   | Project Name            | Status |                        Live Demo                         |                Details                |
+| :-- | :---------------------- | :----: | :------------------------------------------------------: | :-----------------------------------: |
+| 01  | **Quote Generator**     |   ✅   |     [Live ](https://quote-generato-web.netlify.app/)     |   [Read more ](#01-quote-generator)   |
+| 02  | **Infinite Scroll**     |   ✅   |      [Live ](https://infinite-scrool.netlify.app/)       |   [Read more ](#02-infinite-scroll)   |
+| 03  | **Picture-in-Picture**  |   ✅   |   [Live ](https://picture-in-picture-web.netlify.app/)   | [Read more ](#03-picture-in-picture)  |
+| 04  | **Joke Teller**         |   ✅   |      [Live ](https://joke-teller-web.netlify.app/)       |     [Read more ](#04-joke-teller)     |
+| 05  | **Light/Dark Mode**     |   ✅   |    [Live ](https://light-dark-mode-web.netlify.app/)     |   [Read more ](#05-lightdark-mode)    |
+| 06  | **Animated Template**   |   ✅   |     [Live ](https://template-animated.netlify.app/)      |  [Read more ](#06-animated-template)  |
+| 07  | **Navigation Nation**   |   ✅   |   [Live ](https://navigation-nation-web.netlify.app/)    |  [Read more ](#07-navigation-nation)  |
+| 08  | **Music Player**        |   ✅   |    [Live ](https://web-music-player-app.netlify.app/)    |    [Read more ](#08-music-player)     |
+| 09  | **Custom Countdown**    |   ✅   |   [Live ](https://custom-count-down-web.netlify.app/)    |  [Read more ](#09-custom-countdown)   |
+| 10  | **Book Keeper**         |   ✅   |      [Live ](https://book-keeper-web.netlify.app/)       |     [Read more ](#10-book-keeper)     |
+| 11  | **Video Player**        |   ✅   | [Live ](https://custom-video-player-webapp.netlify.app/) |    [Read more ](#11-video-player)     |
+| 12  | **Form Validator**      |   ✅   |     [Live ](https://form-validator-web.netlify.app/)     |   [Read more ](#12-form-validator)    |
+| 13  | **Spock Rock Game**     |   ✅   |       [Live ](https://spock-rock-web.netlify.app/)       |   [Read more ](#13-spock-rock-game)   |
+| 14  | **NASA APOD**           |   ✅   |     [Live ](https://nasa-apod-web-app.netlify.app/)      |      [Read more ](#14-nasa-apod)      |
+| 15  | **Math Sprinting Game** |   ✅   |       [Live ](https://math-sprinting.netlify.app/)       | [Read more ](#15-math-sprinting-game) |
+| 16  | **Drag and Drop**       |   ⏳   |                        _Pending_                         |                   -                   |
 
 ---
 
@@ -224,7 +225,22 @@ An interactive dashboard that fetches NASA's "Astronomy Picture of the Day." Thi
 
 ---
 
-### 15. Math Sprinting Game (Coming Soon)
+### 15. Math Sprinting Game
+
+A fast-paced arithmetic game that challenges users to solve equations against the clock. This project focuses on performance tracking, high-score persistence, and precise UI timing.
+![Math Sprinting Game Screenshot](./screenshots/math-springting-game.png)
+
+**Key Learnings:**
+
+- **Dynamic Equation Generation:** Writing logic to create random addition, subtraction, and multiplication equations, intentionally mixing in incorrect results for the user to identify.
+- **State Management:** Seamlessly transitioning between 4 distinct game UI states (Splash, Countdown, Game, and Score) by toggling the `hidden` attribute.
+- **Timer Precision:** Using `setInterval` to track player time down to a single decimal point and calculating penalty time for wrong answers.
+- **High Scores:** Storing and retrieving personal bests from `localStorage` based on the selected number of questions (10, 25, 50, or 99).
+- **DOM Efficiency:** Manipulating the `scrollTop` property to auto-scroll the equation list as the user plays.
+
+---
+
+### 16. Drag and Drop (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -234,7 +250,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** NASA API, Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API, Confetti.js
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
