@@ -25,7 +25,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 13  | **Spock Rock Game**     |   ✅   |       [Live ](https://spock-rock-web.netlify.app/)       |   [Read more ](#13-spock-rock-game)   |
 | 14  | **NASA APOD**           |   ✅   |     [Live ](https://nasa-apod-web-app.netlify.app/)      |      [Read more ](#14-nasa-apod)      |
 | 15  | **Math Sprinting Game** |   ✅   |       [Live ](https://math-sprinting.netlify.app/)       | [Read more ](#15-math-sprinting-game) |
-| 16  | **Drag and Drop**       |   ⏳   |                        _Pending_                         |                   -                   |
+| 16  | **Drag and Drop**       |   ✅   |      [Live ](https://drag-n-drop-web.netlify.app/)       |    [Read more ](#16-drag-and-drop)    |
+| 17  | **Calculator**          |   ⏳   |                        _Pending_                         |                   -                   |
 
 ---
 
@@ -240,7 +241,22 @@ A fast-paced arithmetic game that challenges users to solve equations against th
 
 ---
 
-### 16. Drag and Drop (Coming Soon)
+### 16. Drag and Drop
+
+A custom Kanban board that allows users to organize tasks across multiple columns using native browser capabilities. This project focuses on the Drag and Drop API and complex data state synchronization.
+![Drag and Drop Screenshot](./screenshots/drag-and-drop.png)
+
+**Key Learnings:**
+
+- **HTML5 Drag and Drop API:** Mastering event listeners like `dragstart`, `dragenter`, `dragover`, and `drop` to facilitate smooth item movement.
+- **Data Transfer:** Using JavaScript to track which item is being dragged and which column it belongs to during the transition.
+- **Rebuilding the DOM:** Writing a `rebuildArrays` function to scrape the current DOM state and update the underlying JavaScript arrays to reflect user changes.
+- **Persistence:** Ensuring that every drag-and-drop action triggers a `localStorage` save so the board remains exactly as the user left it.
+- **UI Feedback:** Dynamically adding and removing CSS classes (like `over` or `dragging`) to provide visual cues to the user during the interaction.
+
+---
+
+### 17. Calculator (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -250,7 +266,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** NASA API, Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API, Confetti.js
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
