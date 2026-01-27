@@ -28,7 +28,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 16  | **Drag and Drop**       |   ✅   |      [Live ](https://drag-n-drop-web.netlify.app/)       |    [Read more ](#16-drag-and-drop)    |
 | 17  | **Calculator**          |   ✅   |    [Live ](https://calculator-webapp-1.netlify.app/)     |     [Read more ](#17-calculator)      |
 | 18  | **Splash Page**         |   ✅   |      [Live ](https://splash-page-web.netlify.app/)       |     [Read more ](#18-splash-page)     |
-| 19  | **Paint Clone**         |   ⏳   |                        _Pending_                         |                   -                   |
+| 19  | **Paint Clone**         |   ✅   |      [Live ](https://paint-clone-web.netlify.app/)       |     [Read more ](#19-paint-clone)     |
+| 20  | **Pong**                |   ⏳   |                        _Pending_                         |                   -                   |
 
 ---
 
@@ -287,9 +288,24 @@ An interactive background switcher that allows users to toggle between different
 
 ---
 
-### 19. Paint Clone (Coming Soon)
+### 19. Paint Clone
 
-_Placeholder for the upcoming project logic and screenshot._
+A fully functional drawing application built using the HTML5 Canvas API. This project focuses on pixel-based rendering and interactive graphical user interfaces.
+![Paint Clone Screenshot](./screenshots/paint-clone.png)
+
+**Key Learnings:**
+
+- **HTML5 Canvas API:** Mastering the `canvas.getContext('2d')` to draw paths, shapes, and manage brush settings like `lineWidth` and `strokeStyle`.
+- **Mouse Event Coordination:** Tracking `mousedown`, `mousemove`, and `mouseup` to enable fluid free-hand drawing.
+- **Canvas Math:** Calculating cursor offsets relative to the canvas container to ensure high drawing precision.
+- **Functional Tools:** Implementing specialized logic for an Eraser, Color Picker, and Brush size slider.
+- **Storage & Retrieval:** Using `canvas.toDataURL()` to save the masterpiece or storing path arrays in `localStorage` to persist drawings after refresh.
+
+---
+
+### 20. Pong (Coming Soon)
+
+_Placeholder for the final capstone project logic and screenshot._
 
 ---
 
@@ -297,7 +313,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** NASA API, Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API, Confetti.js
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API, Floating Point Arithmetic, Dynamic Class Switching.
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API, Floating Point Arithmetic, Dynamic Class Switching, HTML5 Canvas API.
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
