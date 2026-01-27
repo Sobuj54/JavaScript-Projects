@@ -26,7 +26,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 14  | **NASA APOD**           |   ✅   |     [Live ](https://nasa-apod-web-app.netlify.app/)      |      [Read more ](#14-nasa-apod)      |
 | 15  | **Math Sprinting Game** |   ✅   |       [Live ](https://math-sprinting.netlify.app/)       | [Read more ](#15-math-sprinting-game) |
 | 16  | **Drag and Drop**       |   ✅   |      [Live ](https://drag-n-drop-web.netlify.app/)       |    [Read more ](#16-drag-and-drop)    |
-| 17  | **Calculator**          |   ⏳   |                        _Pending_                         |                   -                   |
+| 17  | **Calculator**          |   ✅   |    [Live ](https://calculator-webapp-1.netlify.app/)     |     [Read more ](#17-calculator)      |
+| 18  | **Splash Page**         |   ⏳   |                        _Pending_                         |                   -                   |
 
 ---
 
@@ -256,7 +257,22 @@ A custom Kanban board that allows users to organize tasks across multiple column
 
 ---
 
-### 17. Calculator (Coming Soon)
+### 17. Calculator
+
+A sleek, fully functional web calculator built with a focus on logic flow and floating-point precision. This project demonstrates complex state management without external libraries.
+![Calculator Screenshot](./screenshots/calculator.png)
+
+**Key Learnings:**
+
+- **Operator Logic:** Managing the transition between values when an operator (+, -, \*, /) is pressed, including the ability to chain operations.
+- **Decimal Management:** Implementing checks to ensure only one decimal point can be added per number.
+- **Display Formatting:** Updating the DOM in real-time to show current inputs and results while handling overflow for large numbers.
+- **Clear Logic:** Differentiating between a "Clear" (resets current value) and "All Clear" (resets entire memory state).
+- **Math Object:** Leveraging JavaScript's built-in math capabilities to ensure accurate result processing for complex operations.
+
+---
+
+### 18. Splash Page (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -266,7 +282,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** NASA API, Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API, Confetti.js
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API, Floating Point Arithmetic
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
