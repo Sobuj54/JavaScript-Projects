@@ -27,7 +27,8 @@ _Use this table for quick navigation to the live demos, code, and detailed galle
 | 15  | **Math Sprinting Game** |   ✅   |       [Live ](https://math-sprinting.netlify.app/)       | [Read more ](#15-math-sprinting-game) |
 | 16  | **Drag and Drop**       |   ✅   |      [Live ](https://drag-n-drop-web.netlify.app/)       |    [Read more ](#16-drag-and-drop)    |
 | 17  | **Calculator**          |   ✅   |    [Live ](https://calculator-webapp-1.netlify.app/)     |     [Read more ](#17-calculator)      |
-| 18  | **Splash Page**         |   ⏳   |                        _Pending_                         |                   -                   |
+| 18  | **Splash Page**         |   ✅   |      [Live ](https://splash-page-web.netlify.app/)       |     [Read more ](#18-splash-page)     |
+| 19  | **Paint Clone**         |   ⏳   |                        _Pending_                         |                   -                   |
 
 ---
 
@@ -272,7 +273,21 @@ A sleek, fully functional web calculator built with a focus on logic flow and fl
 
 ---
 
-### 18. Splash Page (Coming Soon)
+### 18. Splash Page
+
+An interactive background switcher that allows users to toggle between different visual themes. This project focuses on efficient DOM class management and conditional logic.
+![Splash Page Screenshot](./screenshots/splash-page.png)
+
+**Key Learnings:**
+
+- **Dynamic Class Manipulation:** Using `body.className` and `classList.add()` to swap entire page themes instantly via JavaScript.
+- **Switch Statement Logic:** Implementing a `switch` block to handle multiple background options cleanly and efficiently.
+- **State Validation:** Writing logic to check the current `previousBackground` to prevent redundant class assignments or unnecessary DOM updates.
+- **Reset Patterns:** Efficiently resetting the `body.className` string to an empty state before applying new visual styles to ensure no class conflicts.
+
+---
+
+### 19. Paint Clone (Coming Soon)
 
 _Placeholder for the upcoming project logic and screenshot._
 
@@ -282,7 +297,7 @@ _Placeholder for the upcoming project logic and screenshot._
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **APIs & Libraries:** NASA API, Unsplash, Quote API, Screen Capture, VoiceRSS, AOS Library, HTML5 Audio API, HTML5 Video API, Confetti.js
-- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API, Floating Point Arithmetic
+- **Key Concepts:** DOM Manipulation, Local Storage, Async/Await, CSS Variables, Scroll-based Events, Staggered Animations, Audio/Video Manipulation, Date & Time Math, RegEx Validation, Modal UI, Fullscreen API, Form Validation, Game Logic, Persistent Favorites, State Management, Timer Logic, Drag and Drop API, Floating Point Arithmetic, Dynamic Class Switching.
 - **Environment:** VS Code, Git, Netlify (Hosting)
 
 ## How to Run Locally
